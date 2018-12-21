@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.action_staggered:
                 recyclerView.setLayoutManager(
-                        new StaggeredGridLayoutManager(4,
+                        new StaggeredGridLayoutManager(5,
                                 StaggeredGridLayoutManager.VERTICAL));
                 break;
             case R.id.action_horizontal_grid:
