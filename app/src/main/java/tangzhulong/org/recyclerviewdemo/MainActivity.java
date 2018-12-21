@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.action_horizontal_grid:
                 recyclerView.setLayoutManager(
-                        new GridLayoutManager(this,6,
+                        new GridLayoutManager(this,4,
                                 GridLayoutManager.HORIZONTAL,false));
                 break;
         }
