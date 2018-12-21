@@ -5,4 +5,5 @@ package tangzhulong.org.recyclerviewdemo;
  */
 
 public class V2 {
+    private String version="1.0";
 }
